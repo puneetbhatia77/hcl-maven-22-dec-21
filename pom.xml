@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>FirstJavaProject</groupId>
   <artifactId>FirstJavaProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>release-1.0</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -10,6 +10,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
+          <release>17</release>
         </configuration>
       </plugin>
     </plugins>
